@@ -30,7 +30,7 @@ export default function ContactPage() {
           <p>
             <span className="font-semibold text-white">TryHackMe:</span>{" "}
             <a href="#" className="text-cyan-300 hover:underline">
-              tryhackme.com/p/iamthorofasgard
+              https://app.notion.com/p/Multi-Party-Computation-MPC-3d798fdc1c2f80ad8ad5cc58e5cca561?pvs=18
             </a>
           </p>
         </div>
