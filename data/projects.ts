@@ -15,7 +15,7 @@ export type Project = {
 export const projects: Project[] = [
   
 {
-  title: "Playing a Hidden-Role Game Without a Trusted Dealer",
+  title: "Dissertation : Playing a Hidden-Role Game Without a Trusted Dealer",
   category: "Cryptography & Secure Multi-Party Computation",
   problem:
     "Traditional hidden-role games rely on a trusted moderator or server that knows players' secret roles ",
@@ -53,18 +53,5 @@ export const projects: Project[] = [
       report: "#",
     },
   },
-  {
-    title: "Web Application Security Assessment",
-    category: "Offensive Security",
-    problem:
-      "A vulnerable training web application required assessment against common OWASP-style risks.",
-    action:
-      "Performed controlled testing in a legal lab environment and documented issues with remediation advice.",
-    outcome:
-      "Created a structured security assessment report suitable for a junior penetration testing portfolio.",
-    tools: ["Burp Suite", "OWASP Top 10", "Linux", "Reporting"],
-    links: {
-      report: "#",
-    },
-  },
+  
 ];
