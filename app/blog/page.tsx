@@ -9,6 +9,7 @@ const posts = [
     content:"Privacy",
     summary:
       "An introduction to privacy-preserving computation, exploring how mutually distrustful parties can securely collaborate without exposing their private inputs.",
+    link: "https://app.notion.com/p/Multi-Party-Computation-MPC-3d798fdc1c2f80ad8ad5cc58e5cca561?pvs=18",
   },
  
 
@@ -35,6 +36,14 @@ export default function BlogPage() {
             <p className="mt-4 text-sm leading-6 text-slate-300">
               {post.summary}
             </p>
+            <a
+  href={post.link}
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 inline-block text-sm font-semibold text-cyan-300 hover:text-cyan-200 transition-colors"
+>
+  Read Full Article →
+</a>
           </article>
         ))}
       </div>
