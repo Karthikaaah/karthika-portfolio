@@ -13,21 +13,7 @@ export type Project = {
 };
 
 export const projects: Project[] = [
-  {
-    title: "AI-Powered Phishing Email Classifier",
-    category: "AI Security",
-    problem:
-      "Phishing emails are difficult to triage manually at scale in security operations environments.",
-    action:
-      "Built a machine learning prototype using text features to classify suspicious emails and evaluate model performance.",
-    outcome:
-      "Created a portfolio-ready security case study with metrics, limitations, and deployment recommendations.",
-    tools: ["Python", "scikit-learn", "pandas", "NLP", "Machine Learning"],
-    links: {
-      github: "#",
-      report: "#",
-    },
-  },
+  
   {
     title: "Network Traffic Analysis Lab",
     category: "Blue Team",
