@@ -5,15 +5,15 @@ export default function AboutPage() {
     <section className="container-page py-24">
       <SectionHeading
         eyebrow="About"
-        title="Cybersecurity and AI postgraduate student"
+        title="Cybersecurity and AI postgraduate"
         description="My work focuses on practical security, AI-driven detection, investigation, and clear technical communication."
       />
 
       <div className="grid gap-8 lg:grid-cols-[1.4fr_0.8fr]">
         <div className="card p-8 text-slate-300">
           <p className="leading-8">
-            I’m an MSc Cybersecurity and AI student at the University of
-            Sheffield, expected to graduate in September 2026. My interests sit
+            I’m an MSc Cybersecurity and AI graduate from the University of
+            Sheffield, completed course successfully with Merit. My interests sit
             at the intersection of cyber defence, adversarial thinking, and
             applied machine learning.
           </p>
