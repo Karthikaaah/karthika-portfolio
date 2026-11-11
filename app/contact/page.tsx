@@ -24,13 +24,13 @@ export default function ContactPage() {
           <p>
             <span className="font-semibold text-white">GitHub:</span>{" "}
             <a href="#" className="text-cyan-300 hover:underline">
-              github.com/your-username
+              github.com/Karthikaah
             </a>
           </p>
           <p>
             <span className="font-semibold text-white">TryHackMe:</span>{" "}
             <a href="#" className="text-cyan-300 hover:underline">
-              tryhackme.com/p/your-username
+              tryhackme.com/p/iamthorofasgard
             </a>
           </p>
         </div>
