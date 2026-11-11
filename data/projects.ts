@@ -22,7 +22,7 @@ export const projects: Project[] = [
   action:
     "Developed a Python game using a dealerless encrypted-deck protocol , Paillier-based secure AND checks , and Shamir Secret Sharing with BGW-inspired computation . ",
   outcome:
-    "Built a playable privacy-preserving prototype that reduces the server's access to game decisions. Demonstrated how cryptographic protocols can support collaborative gameplay without requiring a fully trusted moderator, while identifying limitations and opportunities for stronger security.",
+    "Built a playable privacy-preserving prototype that reduces the server's access to game decisions.",
   tools: [
     "Python",
     "Secure Multi-Party Computation (MPC)",
