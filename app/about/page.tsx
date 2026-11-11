@@ -13,7 +13,7 @@ export default function AboutPage() {
         <div className="card p-8 text-slate-300">
           <p className="leading-8">
             I’m an MSc Cybersecurity and AI graduate from the University of
-            Sheffield, completed course successfully with Merit. My interests sit
+            Sheffield, who completed the course successfully with Merit. My interests sit
             at the intersection of cyber defence, adversarial thinking, and
             applied machine learning.
           </p>
@@ -23,7 +23,7 @@ export default function AboutPage() {
             them, and how AI can support faster and more reliable decision-making
             in security environments. I’m building hands-on experience through
             academic work, labs, CTF-style practice, independent projects, and
-            structured technical write-ups.
+            structured technical blogs.
           </p>
         </div>
 
@@ -38,10 +38,7 @@ export default function AboutPage() {
               <dt className="text-slate-500">Programme</dt>
               <dd className="text-slate-200">MSc Cybersecurity and AI</dd>
             </div>
-            <div>
-              <dt className="text-slate-500">Expected Graduation</dt>
-              <dd className="text-slate-200">September 2026</dd>
-            </div>
+      
             <div>
               <dt className="text-slate-500">Focus</dt>
               <dd className="text-slate-200">
