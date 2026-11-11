@@ -18,19 +18,19 @@ export default function ContactPage() {
           <p>
             <span className="font-semibold text-white">LinkedIn:</span>{" "}
             <a href="https://www.linkedin.com/in/karthika-s-s-" className="text-cyan-300 hover:underline">
-              linkedin.com/in/karthika-s-s-
+             karthika-s-s-
             </a>
           </p>
           <p>
             <span className="font-semibold text-white">GitHub:</span>{" "}
-            <a href="#" className="text-cyan-300 hover:underline">
-              github.com/Karthikaah
+            <a href="https://github.com/Karthikaaah" className="text-cyan-300 hover:underline">
+              Karthikaah
             </a>
           </p>
           <p>
             <span className="font-semibold text-white">TryHackMe:</span>{" "}
-            <a href="#" className="text-cyan-300 hover:underline">
-              https://app.notion.com/p/Multi-Party-Computation-MPC-3d798fdc1c2f80ad8ad5cc58e5cca561?pvs=18
+            <a href="https://tryhackme.com/p/iamthorofasgard" className="text-cyan-300 hover:underline">
+              iamthorofasgard
             </a>
           </p>
         </div>
