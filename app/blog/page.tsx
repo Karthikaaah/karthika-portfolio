@@ -2,26 +2,16 @@ import SectionHeading from "@/components/SectionHeading";
 
 const posts = [
   {
-    title: "How I’m Building My Cybersecurity Portfolio",
-    category: "Career",
+    title: "Multi-Party Computation",
+    category: "Technical Article",
     date: "2026",
+    area: "Cryptography",
+    content:"Privacy",
     summary:
-      "A reflection on building practical evidence through labs, projects, write-ups, and AI-security experiments.",
+      "An introduction to privacy-preserving computation, exploring how mutually distrustful parties can securely collaborate without exposing their private inputs.",
   },
-  {
-    title: "Using Machine Learning for Phishing Detection",
-    category: "AI Security",
-    date: "2026",
-    summary:
-      "A beginner-friendly explanation of how text classification can support phishing email triage.",
-  },
-  {
-    title: "What Makes a Good Security Lab Report?",
-    category: "Technical Writing",
-    date: "2026",
-    summary:
-      "Notes on writing clear security reports with scope, evidence, findings, impact, and remediation.",
-  },
+ 
+
 ];
 
 export default function BlogPage() {
@@ -37,7 +27,7 @@ export default function BlogPage() {
         {posts.map((post) => (
           <article key={post.title} className="card p-6">
             <p className="font-mono text-xs uppercase tracking-[0.25em] text-cyan-300">
-              {post.category} · {post.date}
+              {post.category} · {post.date} {post.area} {post.content}
             </p>
             <h3 className="mt-4 text-xl font-semibold text-white">
               {post.title}
