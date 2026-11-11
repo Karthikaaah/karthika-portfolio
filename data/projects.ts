@@ -18,11 +18,11 @@ export const projects: Project[] = [
   title: "Dissertation : Playing a Hidden-Role Game Without a Trusted Dealer",
   category: "Cryptography & Secure Multi-Party Computation",
   problem:
-    "Traditional hidden-role games rely on a trusted moderator or server that knows players' secret roles ",
+    "Traditional hidden-role games rely on a trusted moderator that knows players' secret roles ",
   action:
-    "Developed a Python game using a dealerless encrypted-deck protocol , Paillier-based secure AND checks , and Shamir Secret Sharing with BGW-inspired computation . ",
+    "Developed a Python game using a dealerless encrypted-deck protocol , Paillier-based secure AND checks ,BGW-inspired computation . ",
   outcome:
-    "Built a playable privacy-preserving prototype that reduces the server's access to game decisions.",
+    "Built privacy-preserving prototype that reduces the server's access to game.",
   tools: [
     "Python",
     "Secure Multi-Party Computation (MPC)",
@@ -48,7 +48,7 @@ export const projects: Project[] = [
   action:
     " Python-based SSH intrusion detection tool , map threats to MITRE ATT&CK, and automate security alerts and forensic evidence collection.",
   outcome:
-    "Automated monitoring solution with SQLite event storage, SIEM-compatible alerts, duplicate-alert suppression, SHA-256 evidence integrity verification, and 46 automated tests.",
+    "Automated monitoring with SQLite event storage, SIEM-compatible alerts, duplicate-alert suppression, SHA-256 integrity verification, and 46 automated tests.",
   tools: [
     "Python",
     "Linux",
