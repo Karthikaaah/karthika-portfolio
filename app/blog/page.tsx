@@ -9,7 +9,7 @@ const posts = [
     content:"Privacy",
     summary:
       "An introduction to privacy-preserving computation, exploring how mutually distrustful parties can securely collaborate without exposing their private inputs.",
-    link: "https://app.notion.com/p/Multi-Party-Computation-MPC-3d798fdc1c2f80ad8ad5cc58e5cca561?pvs=18",
+    link: "https://placid-bridge-fcf.notion.site/Multi-Party-Computation-MPC-3d798fdc1c2f80ad8ad5cc58e5cca561?source=copy_link",
   },
  
 
