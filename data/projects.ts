@@ -34,24 +34,34 @@ export const projects: Project[] = [
   ],
   links: {
     report: "#",
-    github: "#"
+    github: ""
   }
 },
 
   
-  {
-    title: "Network Traffic Analysis Lab",
-    category: "Blue Team",
-    problem:
-      "Suspicious network behaviour needed to be investigated using packet-level evidence.",
-    action:
-      "Analysed packet captures, identified unusual connections, and documented findings in an analyst-style report.",
-    outcome:
-      "Produced a clear investigation summary with indicators, evidence, and defensive recommendations.",
-    tools: ["Wireshark", "TCP/IP", "DNS", "HTTP", "Incident Analysis"],
-    links: {
-      report: "#",
-    },
+ 
+{
+  title: "Advanced SSH Monitor: Intrusion Detection & DFIR",
+  category: "Blue Team",
+  problem:
+    "SSH authentication logs require continuous monitoring to detect brute-force attacks, suspicious login patterns, and potential account compromises.",
+  action:
+    " Python-based SSH intrusion detection tool , map threats to MITRE ATT&CK, and automate security alerts and forensic evidence collection.",
+  outcome:
+    "Automated monitoring solution with SQLite event storage, SIEM-compatible alerts, duplicate-alert suppression, SHA-256 evidence integrity verification, and 46 automated tests.",
+  tools: [
+    "Python",
+    "Linux",
+    "SQLite",
+    "MITRE ATT&CK",
+    "Splunk HEC",
+    "Digital Forensics",
+    "Pytest"
+  ],
+  links: {
+    github: "https://github.com/Karthikaaah/ssh-monitor",
   },
+},
+
   
 ];
